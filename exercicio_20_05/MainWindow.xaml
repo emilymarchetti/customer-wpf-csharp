@@ -1,0 +1,22 @@
+﻿<Window x:Class="exercicio_20_05.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:exercicio_20_05"
+        mc:Ignorable="d"
+        Title="Cadastro de Cliente" Height="450" Width="800">
+    <Grid>
+        <Label Content="Nome" Margin="30,10,528,369" FontSize="16"/>
+        <TextBox Name="field_name" Margin="30,55,528,329"/>
+
+        <Label Content="CPF" Margin="30,95,528,286" FontSize="16"/>
+        <TextBox Name="field_cpf" Margin="30,133,528,251"/>
+
+        <Label Content="Endereço" Margin="30,168,528,213" FontSize="16"/>
+        <TextBox Name="field_endereco" Margin="30,206,528,178"/>
+
+        <Button Content="Cadastrar" Margin="30,265,674,125" Click="Button_Click"></Button>
+        <Button Content="Exportar Dados" Background="#80ffbf" Margin="153,265,528,125" FontStretch="ExtraCondensed"/>
+    </Grid>
+</Window>
